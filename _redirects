@@ -1,0 +1,17 @@
+# Netlify redirects: old ".html" URLs -> clean URLs (permanent 301)
+# The "!" after 301 forces the redirect even though the .html file exists.
+
+/index.html                           /                                301!
+
+/blog/research-from-scratch.html      /blog/research-from-scratch      301!
+/blog/citation-mistakes.html          /blog/citation-mistakes          301!
+/blog/infographic-learning.html       /blog/infographic-learning       301!
+
+/services/research-writing.html       /services/research-writing       301!
+/services/brochure-design.html        /services/brochure-design        301!
+/services/plagiarism-reduction.html   /services/plagiarism-reduction   301!
+/services/presentation-design.html    /services/presentation-design    301!
+/services/training-kits.html          /services/training-kits          301!
+/services/flashcards.html             /services/flashcards             301!
+/services/infographic-design.html     /services/infographic-design     301!
+/services/mendeley-citation.html      /services/mendeley-citation      301!

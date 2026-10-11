@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rasheedresearch.com/</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
+
+  <!-- Services -->
+  <url><loc>https://rasheedresearch.com/services/research-writing</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/brochure-design</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/plagiarism-reduction</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/presentation-design</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/training-kits</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/flashcards</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/infographic-design</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://rasheedresearch.com/services/mendeley-citation</loc><lastmod>2026-10-10</lastmod></url>
+
+  <!-- Blog (lastmod = publish date shown on the site) -->
+  <url><loc>https://rasheedresearch.com/blog/research-from-scratch</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://rasheedresearch.com/blog/citation-mistakes</loc><lastmod>2026-02-09</lastmod></url>
+  <url><loc>https://rasheedresearch.com/blog/infographic-learning</loc><lastmod>2026-03-14</lastmod></url>
+</urlset>
