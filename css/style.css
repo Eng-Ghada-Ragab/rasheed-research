@@ -275,8 +275,8 @@ h6 {
   top: 0;
   right: 0;
   width: 100%;
-  background: #0b2a6b;
-  color: #fff;
+  background: #fae8e8;
+  /* color: #fff; */
   z-index: 99999;
   padding: 10px;
   text-align: center;
@@ -350,8 +350,9 @@ h6 {
 }
 
 .countdown-box b {
-  font-size: 14px;
-  line-height: 1.1;
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 4px;
 }
 
 .countdown-box small {
@@ -2319,6 +2320,88 @@ h6 {
   flex-wrap: wrap;
   gap: 0.65rem;
   margin-top: 1.1rem;
+}
+/* تنسيقات قسم الأسئلة الشائعة (FAQ Accordion) */
+.faq-container{
+  padding: clamp(1.4rem, 4vw, 2.2rem);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(255, 250, 248, 0.96));
+    border: 1px solid rgba(232, 214, 211, 0.98);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-soft);
+}
+.faq-accordion-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.faq-item[open] {
+  border-color: var(--primary, #0d6efd);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.faq-summary {
+  padding: 18px 22px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: var(--color-brown);
+}
+.faq-summary::-webkit-details-marker {
+  display: none;
+}
+.faq-summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #64748b;
+  transition: transform 0.3s ease;
+}
+.faq-item[open] .faq-summary::after {
+  content: "-";
+  color: var(--primary, #0d6efd);
+}
+.faq-content {
+  padding: 0 22px 20px 22px;
+  color: #475569;
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+.hidden-faq {
+  display: none;
+}
+.hidden-faq.show {
+  display: block;
+}
+.faq-toggle-btn-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+.faq-toggle-btn {
+  background-color: transparent;
+  color: var(--primary, #5a4745);
+  border: 2px solid var(--primary, #5a4745);
+  padding: 10px 28px;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+}
+.faq-toggle-btn:hover {
+  background-color: var(--primary, #f1cfcf);
+  color: #52413f;
+  border: none;
 }
 
 .tag-cloud span {

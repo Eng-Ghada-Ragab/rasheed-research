@@ -8,6 +8,20 @@
    All variables live at module scope so every function can reach them.
    Nothing is wrapped in an IIFE that would hide them from sibling code.
 ------------------------------------------------------------------ */
+function toggleFaq() {
+  const extraFaq = document.getElementById('extraFaqContainer');
+  const btn = document.getElementById('faqToggleBtn');
+  
+  if (extraFaq.classList.contains('show')) {
+    extraFaq.classList.remove('show');
+    btn.textContent = 'عرض المزيد من الأسئلة';
+    // التمرير بسلاسة إلى أعلى قسم الأسئلة عند الإغلاق
+    document.getElementById('faq').scrollIntoView({ behavior: 'smooth' });
+  } else {
+    extraFaq.classList.add('show');
+    btn.textContent = 'عرض أقل';
+  }
+}
 if (window.__scriptLoaded) throw new Error("script already loaded");
 window.__scriptLoaded = true;
 

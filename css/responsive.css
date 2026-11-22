@@ -1,3 +1,8 @@
+@media (max-width: 790px) {
+.countdown-box {
+  margin-bottom: 6px;
+}
+}
 @media (max-width: 767px) {
 
   html,
@@ -36,7 +41,9 @@
     line-height: 1.9;
   }
 
-
+.countdown-box {
+  margin-bottom: 6px;
+}
   .hero-actions {
     flex-direction: column;
   }
@@ -58,7 +65,9 @@
   .hero-frame {
     transform: none;
   }
-
+.site-header {
+  top: 3PX;
+}
   .floating-note,
   .floating-stat {
     position: static;
@@ -244,9 +253,9 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   :root {
-    --container: min(1220px, calc(100% - 3rem));
+    --container: min(1400px, calc(100% - 3rem));
   }
 
   .services-grid {
